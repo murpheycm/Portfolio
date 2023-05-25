@@ -1,22 +1,26 @@
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 600%;
+    position: relative;
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    padding: 2px 10px;
+    position: relative;
+}
+
+h3 {
+    text-align: Left;
+    padding: 2px 10px;
+}
 
 
-/*Navigation Bar*/
 
-/*nav {
-    background-color: #e6cb1f;
-    height: auto;
-    max-width: 100%;
-    text-align: right;
-    text-transform:uppercase;
-    text-decoration:none ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 150%;
-    color: rgb(36, 36, 31);
-    margin: 10px;
-    padding: 50px;
-    border-radius: 200px;
-} */
 
+/*Navigation bar*/
 .navMenu a {
     right: 20px;
     transition: 0.5s;
@@ -57,105 +61,98 @@ body {
 
 /*About me section*/
 #aboutMe {
-    background-color: rgb(62, 196, 223);
-    height: 100%;
+    background-color: rgb(203, 88, 31);
+    height: auto;
     width: 100%;
 }
 #aboutLeft img {
-    margin: 0px;
     height: auto;
     max-width: 100%;
-    position: relative;
-}
-
-#aboutMe.column
- {
     float: left;
-    width: 33.33%;
+    padding: 200px 0px;
 }
 
-#aboutMe.row:after {
-    content:"";
-    display: table;
-    clear: both;
+#aboutRight h1,h2,h3,p,button{
+    text-align: center;
+    padding: 0px 30px;
+    color: beige;
 }
 
-@media screen and (max-width: 600px) {
-    #aboutMe.column {
-        width:100%;
-    }
+#aboutRight p{
+    padding-bottom: 200px;
 }
 
 
-
-
-
-
-
-/*Work Portfolio Header*/
-#workPortfolio h2 {
-    justify-content: center;
-}
 
 /*Image grid for workPortfolio section */
 figure.row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
-  }
+    padding: 0 10px;
+}
   
-/* Create four equal columns that sits next to each other */
 figure.column {
     flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
+    max-width: 30%;
+    padding: 0 10px;
+}
   
-  figure.column img {
-    margin-top: 8px;
+figure.column img {
+    margin-top: 10px;
     vertical-align: middle;
     width: 100%;
-  }
-  
-/* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Footer styling*/
 
 footer {
-    background-color: rgb(62, 196, 223);
+    background-color: rgb(78, 198, 231);
     margin: 0;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
-    text-align: center;
-  }
+    float: left;
+}
+
+.footer h2 p {
+ 
+    display: inline-block;
+    position: absolute;
+}
+
+
 
 footer img {
     margin: 20px 20px 2px 20px;
     height: auto;
-    max-width: 40%;
+    max-width: 30%;
     position: relative;
-    display:inline-block;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     border-radius: 50%;
+    float: right;
     
-  }
-
-footer.nav a {
-    text-align: center;
-    font-size: 30%;
 }
+
+.footerLinks a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+}
+
