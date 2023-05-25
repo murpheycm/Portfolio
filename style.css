@@ -34,14 +34,15 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(246, 235, 235);
     z-index: 1;
     display: inline-block;
 }
 .navMenu a:hover {
     opacity: 0.7; 
-    text-decoration: underline;
+    text-decoration: underline wavy;
 }
 .navMenu a:active {
     color: rgb(233, 88, 4);
@@ -100,7 +101,6 @@ button.linkedinIcon {
     border-radius: 30%;
     border-color: black;
     border-style: dotted;
-
 }
 
 button.linkedinIcon:hover {
@@ -113,12 +113,12 @@ button.linkedinIcon:hover {
 .work h2{
     color: beige;
     margin:0;
-    padding: 50px 0;
+    padding: 60px 0;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
     ;
-    font-size: 200%;
+    font-size: 250%;
     background-color: rgb(135, 147, 16);
 }
 
@@ -141,56 +141,40 @@ figure.column img {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
+figure.column img:hover {
+    opacity: 0.9;
+    transform: scale(1.2);
+    text-align: center;
+}
 
 
 /*Footer styling*/
 
 footer {
     background-color: rgb(57, 134, 195);
-    margin: 0;
     height: auto;
-    padding: 10px;
     width: 100%;
-    float: left;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    text-align: center;
 }
 
-.footer h2 p {
- 
-    display: inline-block;
-    position: absolute;
+#contactMe h2 p {
+   text-align: left;
 }
 
-
-
-footer img {
-    margin: 20px 20px 2px 20px;
+.footer img {
+    padding: 0px 20px 0px 20px;
     height: auto;
     max-width: 30%;
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     border-radius: 50%;
-    float: right;
-    
+    display: inline-block;
 }
 
-.footerLinks a{
-    text-align: center;
+/*.footerLinks a{
     text-decoration: none;
     font-size: 100%;
-    padding: 5px;
-    display: inline-block;
-    position: relative;
-}
+    margin: 5px;
+    text-align: center;
+} */
 
