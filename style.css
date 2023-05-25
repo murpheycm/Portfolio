@@ -1,17 +1,49 @@
 
 
+/*Navigation Bar*/
 
-/*Header styling*/
-#home {
+/*nav {
     background-color: #e6cb1f;
     height: auto;
-    width: 100%;
+    max-width: 100%;
+    text-align: right;
+    text-transform:uppercase;
+    text-decoration:none ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    color: rgb(36, 36, 31);
+    margin: 10px;
+    padding: 50px;
+    border-radius: 200px;
+} */
+
+.navMenu a {
+    right: 20px;
+    transition: 0.5s;
+    padding: 20px 50px 20px 50px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    border-radius: 0px 10px 0px 10px;
+    display: inline-flex;
+}
+.navMenu a:hover {
+    right: 0; 
+}
+.navMenu a:active {
+    color: rgb(233, 88, 4);
 }
 
 
 
-
-/*Menu button*/
+/*Header styling*/
+.backgroundImg img {
+    margin: 0px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
 
 
 
@@ -19,6 +51,7 @@
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: bisque;
 }
 
 
@@ -28,26 +61,30 @@ body {
     height: 100%;
     width: 100%;
 }
+#aboutLeft img {
+    margin: 0px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
 
-#aboutMeWrap.row {
+#aboutMe.column
+ {
     float: left;
+    width: 33.33%;
 }
 
-#aboutLeft {
-    margin: 15px;
-    width: 75%;
+#aboutMe.row:after {
+    content:"";
+    display: table;
+    clear: both;
 }
 
-#aboutRight {
-    float:left;
-    width: 75%;
-    margin: 10px;
+@media screen and (max-width: 600px) {
+    #aboutMe.column {
+        width:100%;
+    }
 }
-
-aboutRight h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 
 
 
@@ -101,20 +138,24 @@ figure.column {
 
 footer {
     background-color: rgb(62, 196, 223);
-    margin: 20px;
+    margin: 0;
     height: auto;
     padding: 20px;
     width: 100%;
     text-align: center;
   }
 
-.footer img {
-    margin: 100px;
+footer img {
+    margin: 20px 20px 2px 20px;
     height: auto;
-    max-width: 20%;
+    max-width: 40%;
+    position: relative;
+    display:inline-block;
+    border-radius: 50%;
+    
   }
 
-  .footerImg a {
+footer.nav a {
     text-align: center;
-    font-size: 50%;
+    font-size: 30%;
 }
