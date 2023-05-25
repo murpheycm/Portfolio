@@ -4,6 +4,7 @@ h1 {
     font-size: 600%;
     position: relative;
     font-style: italic;
+    font-family: cursive;
 }
 
 h2 {
@@ -18,27 +19,33 @@ h3 {
 }
 
 
-
-
 /*Navigation bar*/
+.navMenu{
+    overflow: hidden;
+    background-color: rgb(57, 134, 195);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
 .navMenu a {
-    right: 20px;
-    transition: 0.5s;
-    padding: 20px 50px 20px 50px;
-    width: 100px;
+    transition: 0.2s;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
-    color:black;
-    border-radius: 0px 10px 0px 10px;
-    display: inline-flex;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(246, 235, 235);
+    z-index: 1;
+    display: inline-block;
 }
 .navMenu a:hover {
-    right: 0; 
+    opacity: 0.7; 
+    text-decoration: underline;
 }
 .navMenu a:active {
     color: rgb(233, 88, 4);
 }
-
 
 
 /*Header styling*/
@@ -48,8 +55,6 @@ h3 {
     max-width: 100%;
     position: relative;
 }
-
-
 
 /*Body*/
 
@@ -69,7 +74,7 @@ body {
     height: auto;
     max-width: 100%;
     float: left;
-    padding: 200px 0px;
+    padding: 200px 40px 200px 0px;
 }
 
 #aboutRight h1,h2,h3,p,button{
@@ -79,10 +84,43 @@ body {
 }
 
 #aboutRight p{
-    padding-bottom: 200px;
+    padding: 0px 40px 100px 40px;
+    margin: 0px 20px 0px 20px;
+    font-size: 120%;
 }
 
+button.linkedinIcon {
+    padding: 10px;
+    font-size: 30%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 30%;
+    border-color: black;
+    border-style: dotted;
 
+}
+
+button.linkedinIcon:hover {
+    opacity: 0.8;
+  }
+
+
+/*Work Portfolio*/
+
+.work h2{
+    color: beige;
+    margin:0;
+    padding: 50px 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    ;
+    font-size: 200%;
+    background-color: rgb(135, 147, 16);
+}
 
 /*Image grid for workPortfolio section */
 figure.row {
@@ -118,7 +156,7 @@ figure.column img {
 /*Footer styling*/
 
 footer {
-    background-color: rgb(78, 198, 231);
+    background-color: rgb(57, 134, 195);
     margin: 0;
     height: auto;
     padding: 10px;
