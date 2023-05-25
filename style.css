@@ -1,0 +1,120 @@
+
+
+
+/*Header styling*/
+#home {
+    background-color: #e6cb1f;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+/*Menu button*/
+
+
+
+/*Body*/
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+
+/*About me section*/
+#aboutMe {
+    background-color: rgb(62, 196, 223);
+    height: 100%;
+    width: 100%;
+}
+
+#aboutMeWrap.row {
+    float: left;
+}
+
+#aboutLeft {
+    margin: 15px;
+    width: 75%;
+}
+
+#aboutRight {
+    float:left;
+    width: 75%;
+    margin: 10px;
+}
+
+aboutRight h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+/*Work Portfolio Header*/
+#workPortfolio h2 {
+    justify-content: center;
+}
+
+/*Image grid for workPortfolio section */
+figure.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+/* Create four equal columns that sits next to each other */
+figure.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  figure.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+/*Footer styling*/
+
+footer {
+    background-color: rgb(62, 196, 223);
+    margin: 20px;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+.footer img {
+    margin: 100px;
+    height: auto;
+    max-width: 20%;
+  }
+
+  .footerImg a {
+    text-align: center;
+    font-size: 50%;
+}
