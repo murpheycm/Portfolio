@@ -47,6 +47,22 @@ h3 {
 .navMenu a:active {
     color: rgb(233, 88, 4);
 }
+button.linkedinIcon {
+    padding: 8px;
+    font-size: 35%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 35%;
+    border-color: black;
+    border-style: none;
+}
+
+button.linkedinIcon:hover {
+    opacity: 0.7;
+}
 
 
 /*Header styling*/
@@ -90,23 +106,6 @@ body {
     font-size: 120%;
 }
 
-button.linkedinIcon {
-    padding: 10px;
-    font-size: 30%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    border-radius: 30%;
-    border-color: black;
-    border-style: dotted;
-}
-
-button.linkedinIcon:hover {
-    opacity: 0.8;
-  }
-
 
 /*Work Portfolio*/
 
@@ -117,9 +116,9 @@ button.linkedinIcon:hover {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
-    ;
+    text-decoration: none;
     font-size: 250%;
-    background-color: rgb(135, 147, 16);
+    background-color: rgb(29, 179, 117);
 }
 
 /*Image grid for workPortfolio section */
@@ -143,8 +142,41 @@ figure.column img {
 
 figure.column img:hover {
     opacity: 0.9;
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+/*WebDesign Section*/
+
+#webDesign {
+    background-color: rgb(189, 152, 3);
+    color: black;
     text-align: center;
+    padding: 10px;
+}
+#webDesign img{
+    max-width:30%;
+    padding:10px;
+}
+#webDesign img:hover {
+    transform: scale(1.1);
+}
+
+#webDesign a {
+    text-decoration: none;
+}
+
+
+
+/*Programs Section*/
+#programs {
+    background-color: rgb(203, 88, 31);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+#programs img{
+    max-width: 20%;
+
 }
 
 
@@ -171,10 +203,4 @@ footer {
     display: inline-block;
 }
 
-/*.footerLinks a{
-    text-decoration: none;
-    font-size: 100%;
-    margin: 5px;
-    text-align: center;
-} */
 
