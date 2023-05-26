@@ -1,9 +1,9 @@
-## <strong>User Story</strong>
+ <strong>User Story</strong>
 * AS AN employer
 * I WANT to view a potential employee's deployed portfolio of work samples
 * SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-## <strong>Acceptance Criteria</strong>
+ <strong>Acceptance Criteria</strong>
 * GIVEN I need to sample a potential employee's previous work
 * WHEN I load their portfolio
 * THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -18,12 +18,6 @@
 * WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
 
+https://murpheycm.github.io/Portfolio/
 
-
-## Citations
-* https://denisechandler.com/
-* https://www.lauren-waller.com/about
-* https://kenjimmy.me/
-* https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
-* https://www.codingnepalweb.com/navigation-bar-with-scroll-to-top/
-
+![Alt text](Assets/Images/screenshot.JPG)
